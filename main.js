@@ -8,7 +8,7 @@ const videos = {
   
   orFood: "https://www.youtube.com/embed/7WRUkUSrG0I",
   orBeach: "https://www.youtube.com/embed/cjxv2N1egyI",
-  orHiking: "https://www.youtube.com/embed/-iVhARbWctM",
+  orHiking: "https://www.youtube.com/embed/--OBNMalpqM",
   
   caFood: "https://www.youtube.com/embed/vEcMdj31XCs",
   caBeach: "https://www.youtube.com/embed/s4gXNT6KXLQ",

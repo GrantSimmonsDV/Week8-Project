@@ -42,6 +42,7 @@ hr {
   width: 80%;
   margin: auto;
   border: 2px solid grey;
+  border-radius: 5px;
 }
 
 button {
@@ -78,6 +79,7 @@ iframe {
   left: 0;
   width: 560px;
   height: 315px;
+  border-radius: 5px;
 }
 
 .fade {
@@ -96,6 +98,21 @@ section {
   bottom: 0;
   left: 0;
   margin-top: 50px;
+}
+
+select {
+  appearance: "";
+  outline: 5;
+  background: rgb(228, 227, 208);
+  background-image: none;
+  width: 22%;
+  height: 50%;
+  color: black;
+  cursor: pointer;
+  font-weight: 100;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 1px;
 }
 
 .fade::before {
