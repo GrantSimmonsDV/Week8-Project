@@ -4,24 +4,15 @@
   box-sizing: border-box;
 }
 
-
 .fadeIn {
     z-index: 10;
-   
 }
-
 
 h1,
 h3,
 label,
 .pad {
   padding-top: 19px;
-  /* position: relative;
-  margin: auto;
-  
-  right: 0;
-  bottom: 0;
-  left: ; */
 }
 
 h1{
@@ -62,9 +53,7 @@ button {
     background: black;
     text-align: center;
     padding-bottom: 7px;
-    margin: auto;
-    
-    
+    margin: auto;  
 }
 
 option {
@@ -74,6 +63,7 @@ option {
 .space {
     line-height: 35px;
 }
+
 iframe {
   /* position: fixed; */
   position: absolute;
