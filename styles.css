@@ -5,7 +5,7 @@
 }
 
 .fadeIn {
-    z-index: 10;
+  z-index: 10;
 }
 
 h1,
@@ -15,45 +15,49 @@ label,
   padding-top: 19px;
 }
 
-h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   padding-bottom: 10px;
-   font-weight: 700;
-   font-size: xx-large;
-   z-index: 1;
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: xx-large;
+  z-index: 1;
 }
 
-h3, label, .pad {
-    letter-spacing: .5px;
- font-family: 'Georama', sans-serif;   
+h3,
+label,
+.pad {
+  letter-spacing: 0.5px;
+  font-family: "Georama", sans-serif;
+  font-weight: 400;
 }
 
-h3{
-    font-family: 'Georama';
-    font-style: italic;
-    font-size: 700;
+h3 {
+  font-family: "Georama";
+  font-style: italic;
+  font-size: 700;
 }
 
 hr {
-    width: 80%;
-    margin: auto;
-    border: 2px solid grey;  
+  width: 80%;
+  margin: auto;
+  border: 2px solid grey;
 }
 
 button {
-    z-index: 1;
-    display:inline-block;
-    padding: 6.5px 20px; 
-    /* border: 1px solid rgb(250, 141, 39) ; */
-    border-radius: 10px;
-    box-sizing: border-box;
-    font-family: 'Roberto', sans-serif;
-    font-weight: 600;
-    color: rgb(250, 141, 39);
-    background: black;
-    text-align: center;
-    padding-bottom: 7px;
-    margin: auto;  
+  z-index: 1;
+  display: inline-block;
+  padding: 6.5px 20px;
+  /* border: 1px solid rgb(250, 141, 39) ; */
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: "Roberto", sans-serif;
+  font-weight: 600;
+  color: rgb(250, 141, 39);
+  background: black;
+  text-align: center;
+  padding-bottom: 7px;
+  margin: auto;
 }
 
 option {
@@ -61,14 +65,14 @@ option {
 }
 
 .space {
-    line-height: 35px;
+  line-height: 35px;
 }
 
 iframe {
   /* position: fixed; */
   position: absolute;
   margin: auto;
-  top: 0;
+  top: 100px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -78,7 +82,7 @@ iframe {
 
 .fade {
   text-align: center;
-  position: relative; 
+  position: relative;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -91,10 +95,11 @@ section {
   right: 0;
   bottom: 0;
   left: 0;
+  margin-top: 50px;
 }
 
 .fade::before {
-    content: "";
+  content: "";
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -105,5 +110,5 @@ section {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  left: 0px; 
+  left: 0px;
 }
