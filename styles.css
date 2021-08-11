@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.fadeIn {
-  z-index: 10;
-}
-
 h1,
 h3,
 label,
@@ -73,13 +69,14 @@ iframe {
   /* position: fixed; */
   position: absolute;
   margin: auto;
-  top: 100px;
-  right: 0;
+  top: 185px;
+  right: 25px;
   bottom: 0;
   left: 0;
-  width: 560px;
-  height: 315px;
+  width: 698px;
+  height: 393px;
   border-radius: 5px;
+  z-index: 1;
 }
 
 .fade {
@@ -105,7 +102,7 @@ select {
   outline: 5;
   background: rgb(228, 227, 208);
   background-image: none;
-  width: 22%;
+  width: 138px;
   height: 50%;
   color: black;
   cursor: pointer;
