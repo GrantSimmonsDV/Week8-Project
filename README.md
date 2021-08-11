@@ -1,31 +1,11 @@
-# Foobar
+# Discover West Coast
 
-Foobar is a Python library for dealing with word pluralization.
+Discover West Coast application is a web application written in Javascript using express. It is stylized with CSS and HTML. It embeds YouTube videos to be vied based on user's input of interests regarding areas and activities on the West Coast of the US.
 
-## Installation
+## Technology
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Javascript, HTML, CSS, Youtube, Express, Heroku
 
-```bash
-pip install foobar
-```
+## Resources
 
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+Videos accessed through YouTube: https://www.youtube.com/
