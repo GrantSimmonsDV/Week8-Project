@@ -18,6 +18,7 @@ h1 {
   font-weight: 700;
   font-size: xx-large;
   z-index: 1;
+  
 }
 
 h3,
@@ -32,6 +33,10 @@ h3 {
   font-family: "Georama";
   font-style: italic;
   font-size: 700;
+}
+
+h5 {
+  font-family: "Georama";
 }
 
 hr {

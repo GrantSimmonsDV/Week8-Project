@@ -5,34 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Explore W.Coast</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Georama:wght@600&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <body class = 'fade'>
-    <section class = 'fadeIn'>
-  
-    <h1>CoastalCast</h1>
+  <body class="fade">
+    <section class="fadeIn">
+      <h1>CoastalCast</h1>
+      <h5>Discover the Great West Coast</h5>
+      <hr />
 
-    <hr>
+      <h3>Where do you want to explore..</h3>
 
-    <h3>Where do you want to explore..</h3>
-   
-      <div class = "pad">
-        <label class= 'space' for="SelectState">Choose where on the coast?</label>
+      <div class="pad">
+        <label class="space" for="SelectState"
+          >Choose where on the coast?</label
+        >
         <select name="State" id="SelectState" required>
           <option value="" disabled selected>Select a state</option>
           <option value="WA">Washington</option>
           <option value="OR">Oregon</option>
           <option value="CA">California</option>
         </select>
-        <br>
-        <label class='space' for="SelectActivity">What kind of experience are you looking for?</label>
+        <br />
+        <label class="space" for="SelectActivity"
+          >What kind of experience are you looking for?</label
+        >
         <select name="Activity" id="SelectActivity" required>
           <option value="" disabled selected>Select an interest</option>
           <option value="food">Food</option>
@@ -40,20 +49,20 @@
           <option value="hike">Hiking</option>
         </select>
       </div>
-        
-    <button style="margin-top: 20px;" class = "Btn" id="submit">Discover</button>
-      
+
+      <button style="margin-top: 20px" class="Btn" id="submit">Discover</button>
     </section>
-      
-      
-<div>
-    <iframe src="" 
-    title="YouTube video player"
-    frameborder='0'
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-    </iframe>
-</div>
+
+    <div>
+      <iframe
+        src=""
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
 
     <script src="main.js"></script>
   </body>
