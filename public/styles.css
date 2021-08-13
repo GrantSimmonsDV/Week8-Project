@@ -74,14 +74,14 @@ iframe {
   position: absolute;
   margin: auto;
   top: 185px;
-  right: 25px;
+  right: 10px;
   bottom: 0;
   left: 0;
   width: 698px;
   height: 393px;
   border-radius: 5px;
   z-index: 1;
-  margin-top: 182px;
+  margin-top: 178px;
 }
 
 .fade {
