@@ -132,3 +132,13 @@ select {
   bottom: 0px;
   left: 0px;
 }
+
+body {
+  overflow: auto;
+  height: 100%;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
