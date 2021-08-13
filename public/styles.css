@@ -13,11 +13,10 @@ label,
 
 h1 {
   font-family: "Titillium Web", sans-serif;
-  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif; */
   font-weight: 700;
-  font-size: xx-large;
+  font-size: 46px;
   z-index: 1;
+  line-height: 50px;
 }
 
 h3,
@@ -36,7 +35,8 @@ h3 {
 
 h5 {
   font-family: "Georama";
-  padding-bottom: 5px;
+  padding-bottom: 9px;
+  font-size: 14.6px;
 }
 
 hr {
@@ -74,8 +74,8 @@ iframe {
   /* position: fixed; */
   position: absolute;
   margin: auto;
-  top: 185px;
-  right: 10px;
+  top: 197px;
+  right: 12px;
   bottom: 0;
   left: 0;
   width: 698px;
