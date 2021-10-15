@@ -95,7 +95,7 @@ iframe {
 }
 
 section {
-  position: absolute;
+  position: relative;
   margin: auto;
   top: 0;
   right: 0;
@@ -122,7 +122,7 @@ select {
 .fade::before {
   content: "";
   width: 100%;
-  position: absolute;
+  position: fixed;
   background-image: url("https://ashland-tours.com/wp-content/uploads/2016/01/redwoods-g.jpg");
   background-repeat: no-repeat;
   background-size: cover;
