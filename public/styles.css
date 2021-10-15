@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  /* overflow:visible; */
 }
 
 h1,
@@ -121,24 +122,24 @@ select {
 .fade::before {
   content: "";
   width: 100%;
-  height: 100vh;
   position: absolute;
   background-image: url("https://ashland-tours.com/wp-content/uploads/2016/01/redwoods-g.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
   opacity: 0.35;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
 }
-
+/* 
 body {
   overflow: auto;
   height: 100%;
-}
+} */
 
-html {
-  overflow: hidden;
-  height: 100%;
-}
+/* html {
+ 
+  overscroll-behavior-y: none;
+} */
