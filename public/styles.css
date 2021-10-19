@@ -5,7 +5,9 @@
   /* overflow:visible; */
 }
 
-
+#container {
+  padding-bottom: 500px;
+}
 
 h1,
 h3,
@@ -43,7 +45,7 @@ h5 {
 }
 
 hr {
-  width: 80%;
+  width: 45%;
   margin: auto;
   border: 2px solid grey;
   border-radius: 5px;
@@ -93,7 +95,6 @@ iframe {
   position: relative;
   height: 100vh;
   width: 100%;
-  display: flex;
 }
 
 section {

@@ -24,52 +24,52 @@
 
   <body class="fade">
     <div id="container">
-      <div id="main">
-    <section class="fadeIn">
-      <h1>CoastalCast</h1>
-      <h5>Discover the Great West Coast</h5>
-      <hr />
+      <section class="fadeIn">
+        <h1>CoastalCast</h1>
+        <h5>Discover the Great West Coast</h5>
+        <hr />
 
-      <h3>Where do you want to explore..</h3>
+        <h3>Where do you want to explore..</h3>
 
-      <div class="pad">
-        <label class="space" for="SelectState"
-          >Choose where on the coast?</label
+        <div class="pad">
+          <label class="space" for="SelectState"
+            >Choose where on the coast?</label
+          >
+          <select name="State" id="SelectState" required>
+            <option value="" disabled selected>Select a state</option>
+            <option value="WA">Washington</option>
+            <option value="OR">Oregon</option>
+            <option value="CA">California</option>
+          </select>
+          <br />
+          <label class="space" for="SelectActivity"
+            >What kind of experience are you looking for?</label
+          >
+          <select name="Activity" id="SelectActivity" required>
+            <option value="" disabled selected>Select an interest</option>
+            <option value="food">Food</option>
+            <option value="beach">Beach</option>
+            <option value="hike">Hiking</option>
+          </select>
+        </div>
+
+        <button style="margin-top: 20px" class="Btn" id="submit">
+          Discover
+        </button>
+      </section>
+
+      <div>
+        <iframe
+          src=""
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
         >
-        <select name="State" id="SelectState" required>
-          <option value="" disabled selected>Select a state</option>
-          <option value="WA">Washington</option>
-          <option value="OR">Oregon</option>
-          <option value="CA">California</option>
-        </select>
-        <br />
-        <label class="space" for="SelectActivity"
-          >What kind of experience are you looking for?</label
-        >
-        <select name="Activity" id="SelectActivity" required>
-          <option value="" disabled selected>Select an interest</option>
-          <option value="food">Food</option>
-          <option value="beach">Beach</option>
-          <option value="hike">Hiking</option>
-        </select>
+        </iframe>
       </div>
-
-      <button style="margin-top: 20px" class="Btn" id="submit">Discover</button>
-    </section>
-
-    <div>
-      <iframe
-        src=""
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      >
-      </iframe>
     </div>
-  </div>
-  </div>
-    <footer id="footer"></footer>
+
     <script src="main.js"></script>
   </body>
 </html>
