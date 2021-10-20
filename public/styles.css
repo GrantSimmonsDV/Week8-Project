@@ -45,7 +45,7 @@ h5 {
 }
 
 hr {
-  width: 570px;
+  width: 47%;
   margin: auto;
   border: 2px solid grey;
   border-radius: 5px;
@@ -75,7 +75,13 @@ option {
   line-height: 35px;
 }
 
-iframe {
+.videoWrapper {
+  position: relative;
+  padding-bottom: calc(let(--aspect-ratio, .5625) * 100%);
+  height: 0;
+}
+
+.videoWrapper iframe {
   /* position: fixed; */
   position: absolute;
   margin: auto;
@@ -83,8 +89,10 @@ iframe {
   right: 12px;
   bottom: 0;
   left: 0;
-  width: 698px;
-  height: 393px;
+  /* width: 698px;
+  height: 393px; */
+  width: 100%;
+  height: 100%;
   border-radius: 7px;
   z-index: 1;
   margin-top: 145px;
