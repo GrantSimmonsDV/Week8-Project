@@ -5,9 +5,9 @@
   /* overflow:visible; */
 }
 
-#container {
+/* #container {
   padding-bottom: 500px;
-}
+} */
 
 h1,
 h3,
@@ -77,25 +77,26 @@ option {
 
 .videoWrapper {
   position: relative;
-  padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
+  padding-bottom: calc(var(--aspect-ratio, 0.5625) * 100%);
   height: 0;
+  top: 40px;
 }
 
 .videoWrapper iframe {
   /* position: fixed; */
   position: absolute;
   margin: auto;
-  top: 190px;
-  right: 12px;
+  top: -215px;
+  right: 0;
   bottom: 0;
   left: 0;
   /* width: 698px;
   height: 393px; */
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 60%;
   border-radius: 7px;
   z-index: 1;
-  margin-top: 145px;
+  margin-top: 230px;
 }
 
 .fade {
